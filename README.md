@@ -18,9 +18,8 @@ Code book description of "tidy_data.txt":
 
 It has 563 columns, described as follows:
 
-Column  Name        Meaning
-1       Activity    Each of the six possible activities listed in the "activity_labels.txt" file.
-2       Subject_ID  Each of the 30 subject ids listed in the "subject_train.txt" and "subject_test.txt" files.
-3:563   ...         They are the same columns as in "X_train.txt". However, their names have been changed to those in "features.txt"
+Column 1: (Activity) Each of the six possible activities listed in the "activity_labels.txt" file.
+Column 2: (Subject_ID) Each of the 30 subject ids listed in the "subject_train.txt" and "subject_test.txt" files.
+Columns 3:563 (...) They are the same columns as in "X_train.txt". However, their names have been changed to those in "features.txt"
 
 It has 180 rows corresponding to the mean for each Activity and each Subject_ID. Therefore, we have 180 rows = 6 activities x 30 subjects.
